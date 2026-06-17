@@ -1,0 +1,23 @@
+# Quality Thresholds — proposal-builder QA 표준 임계값
+# 매 작업의 final 단계에서 자동 검증한다.
+# 발견 시점: 001-dw_ai (P1/P2)에서 정량 통과 — SKILL 표준으로 등록.
+
+header_navy_ratio_min: 0.90      # 헤더 영역(top 13%)의 NAVY 가까운 픽셀 비율 최소값
+tone_delta_rgb_max: 5            # baseline NAVY median과의 R+G+B 절댓값 합 최대값 (out of 765)
+card_density_tolerance: 0.15     # baseline 동일 카테고리 슬라이드 흰색 비율 대비 ±15%
+ocr_forbidden_count_max: 0       # forbidden_tokens.txt 토큰 검출 슬라이드 수 최대값
+
+# 측정 방법 (재현용)
+measurement_methods:
+  header_navy_ratio: |
+    img.crop((0, 0, W, int(H * 0.13))) → R<50 and G<80 and 50<B<130 픽셀 비율
+  tone_delta_rgb: |
+    headerLeftSample(median) vs baselineNavyMedian → sum of |Δch| for ch in (R,G,B)
+  card_density: |
+    body = img.crop((0, int(H*0.18), W, int(H*0.96)))
+    white_ratio = count(R>235 and G>235 and B>235) / total
+  ocr_forbidden: |
+    tesseract <png> -l kor → grep tokens in templates/qa/forbidden_tokens.txt
+
+# 발견 작업
+discovered_in: 001-dw_ai (P1/P2)

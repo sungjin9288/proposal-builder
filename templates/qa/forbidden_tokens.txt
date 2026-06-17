@@ -1,0 +1,19 @@
+# Forbidden tokens for proposal builder QA (OCR + native text grep)
+# Format: one token per line, '#' for comments.
+# 매 작업마다 검출된 신규 토큰을 누적.
+
+# === 기본 공개 제안서 directive ===
+평가기준
+평가항목
+배점
+PoC
+native editable
+native objects
+visual refinement
+v1.1
+v1.2
+
+# === 001-dw_ai 작업에서 추가 (평가표 인상) ===
+Scorecard
+가중치
+확인기준
