@@ -1,0 +1,12 @@
+python-pptx
+Pillow
+PyMuPDF
+mammoth
+markdownify
+beautifulsoup4
+requests
+openpyxl
+numpy
+lxml
+PyYAML
+reportlab
