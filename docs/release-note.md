@@ -7,14 +7,21 @@
 - Audience: portfolio review / implementation evidence review
 - Scope: public-safe framework and sanitized evidence package
 
-## Published Artifact
+## Latest Published Artifact
 
-- Release tag: `portfolio-v0.1.0`
-- Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.0`
-- Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.0/proposal_builder_unified_portfolio_pack.zip`
-- Asset size bytes: `197459`
-- Asset SHA256: `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8`
-- Release commit: `5a3ce04421a640129cabda54fd9ea062edaf67e1`
+- Release tag: `portfolio-v0.1.1`
+- Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.1`
+- Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.1/proposal_builder_unified_portfolio_pack.zip`
+- Asset size bytes: `198588`
+- Asset SHA256: `f917b489ffc38d45653ddd4389f25e322271e81a8f1d9f87c5d74ef23b00443f`
+- Release commit: `8a5d2a40b7d9bb9d295801071f7196f914d541a0`
+
+## Release History
+
+| Tag | Purpose | SHA256 |
+|---|---|---|
+| `portfolio-v0.1.1` | Adds post-release evidence docs and package URL sanitization | `f917b489ffc38d45653ddd4389f25e322271e81a8f1d9f87c5d74ef23b00443f` |
+| `portfolio-v0.1.0` | Initial public-safe portfolio package | `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8` |
 
 ## Post-Publish Verification
 

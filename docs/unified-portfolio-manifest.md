@@ -103,9 +103,9 @@ Current release gate:
 
 Published release:
 
-- Tag: `portfolio-v0.1.0`
-- URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.0`
-- Asset SHA256: `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8`
+- Tag: `portfolio-v0.1.1`
+- URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.1`
+- Asset SHA256: `f917b489ffc38d45653ddd4389f25e322271e81a8f1d9f87c5d74ef23b00443f`
 
 ## Portfolio Story
 
