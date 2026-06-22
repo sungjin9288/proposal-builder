@@ -12,9 +12,9 @@ make final-check
 
 ## Published Release Check
 
-- Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.0`
-- Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.0/proposal_builder_unified_portfolio_pack.zip`
-- Expected SHA256: `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8`
+- Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.1`
+- Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.1/proposal_builder_unified_portfolio_pack.zip`
+- Expected SHA256: `f917b489ffc38d45653ddd4389f25e322271e81a8f1d9f87c5d74ef23b00443f`
 
 Post-publish verification downloaded the GitHub release asset, checked the SHA256, extracted the package, ran `make check` inside the extracted package, and scanned the release zip for blocked private/raw file patterns.
 
