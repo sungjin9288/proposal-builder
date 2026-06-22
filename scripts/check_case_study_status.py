@@ -131,6 +131,13 @@ FORBIDDEN_CLAIMS = [
     r"외부 제출 완료",
 ]
 
+FORBIDDEN_SENSITIVE_TOKENS = [
+    "\ub2e4\uc6b8",
+    "\u0044\u0041\u0057\u004f\u004f\u004c",
+    "proposal" + "-v3-work",
+    str(Path.home()),
+]
+
 ALLOWED_CONTEXT = [
     "not complete",
     "does not claim",
@@ -219,6 +226,23 @@ def check_forbidden_claims() -> list[str]:
     return issues
 
 
+def check_sensitive_tokens() -> list[str]:
+    issues: list[str] = []
+    targets = [
+        CASE_ROOT / "README.md",
+        *sorted((CASE_ROOT / "docs").rglob("*")),
+        *sorted((CASE_ROOT / "evidence").rglob("*")),
+    ]
+    for path in targets:
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        for token in FORBIDDEN_SENSITIVE_TOKENS:
+            if token in text:
+                issues.append(f"case-study sensitive token found: {rel(path)}: {token}")
+    return issues
+
+
 def write_report(issues: list[str]) -> None:
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     status = "PASS" if not issues else "NEEDS_FIX"
@@ -238,6 +262,7 @@ def write_report(issues: list[str]) -> None:
         "- CLI logs preserve pass/blocking states",
         "- Output reports preserve non-final and no-training boundaries",
         "- Case-study docs avoid unsupported production/API/model-training claims",
+        "- Case-study docs avoid private workspace paths and organization tokens",
         "",
         "## Issues",
         "",
@@ -265,6 +290,7 @@ def main() -> int:
     issues.extend(check_expected_text())
     issues.extend(check_manifest_log_coverage())
     issues.extend(check_forbidden_claims())
+    issues.extend(check_sensitive_tokens())
     write_report(issues)
 
     print(f"report={REPORT_PATH}")

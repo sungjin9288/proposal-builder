@@ -1,0 +1,12 @@
+ai_root=<case-study-workspace>/ai_training
+status=NEEDS_INPUT
+report_md=<case-study-workspace>/evidence/output-artifacts/ai_training_workspace_validation.md
+report_json=<case-study-workspace>/evidence/output-artifacts/ai_training_workspace_validation.json
+jsonl_file_count=7
+jsonl_total_rows=768
+sample_count=5
+ready_samples=0
+needs_input_samples=5
+broken_symlink_count=0
+RESULT NEEDS_INPUT ai_training_workspace_validation
+exit_code=2

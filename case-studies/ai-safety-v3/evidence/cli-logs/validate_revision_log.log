@@ -1,0 +1,6 @@
+PASS revision_log_state=REVISION_LOG_INTERNAL_REVIEW
+PASS revision_log_applied_changes=7
+PASS revision_log_tradeoffs=3
+PASS revision_log_not_done=3
+RESULT PASS revision_log
+exit_code=0
