@@ -22,6 +22,21 @@
 _portfolio_export/proposal_builder_unified_portfolio_pack.zip
 ```
 
+## Published Release
+
+- Release tag: `portfolio-v0.1.0`
+- Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.0`
+- Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.0/proposal_builder_unified_portfolio_pack.zip`
+- Asset SHA256: `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8`
+
+## After Upload
+
+- Confirm the GitHub release is published, not draft.
+- Download the release asset from GitHub.
+- Verify the downloaded asset SHA256 matches the upload manifest.
+- Extract the downloaded asset and run `make check` inside the package.
+- Scan the original release zip entries for blocked paths and raw/private file patterns.
+
 ## Reviewer Entry Points
 
 - `PORTFOLIO.md`
