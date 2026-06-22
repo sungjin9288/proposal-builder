@@ -40,6 +40,7 @@
 - `scripts/write_upload_manifest.py`
 - `scripts/write_package_inventory.py`
 - `scripts/check_docs_links.py`
+- `scripts/check_case_study_status.py`
 - `scripts/check_export_consistency.py`
 - `scripts/check_release_readiness.py`
 - `scripts/build_portfolio_package.py`
@@ -60,6 +61,7 @@
 - raw `*.pptx`, `*.pdf`, `*.hwp`, `*.hwpx`
 - dependency/cache folders
 - `_demo_output/`
+- `_portfolio_export/`
 
 ## Local Generated Outputs
 
@@ -98,6 +100,12 @@ Current release gate:
 
 - `make release-check`: `PASS`
 - Generated local report: `_demo_output/release_readiness_report.md`
+
+Published release:
+
+- Tag: `portfolio-v0.1.0`
+- URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.0`
+- Asset SHA256: `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8`
 
 ## Portfolio Story
 

@@ -212,6 +212,8 @@ def sanitize_staged_text() -> None:
         (str(Path.home() / "local-workspace"), "<case-study-workspace>"),
         (str(Path.home() / "Downloads"), "<local-downloads>"),
         (str(Path.home()), "<local-home>"),
+        ("github.com/" + "sung" + "jin9288/proposal-builder", "github.com/<github-owner>/proposal-builder"),
+        ("sung" + "jin9288", "<github-owner>"),
         ("㈜" + "\ub2e4\uc6b8", "㈜샘플기관"),
         ("\ub2e4\uc6b8", "샘플기관"),
         ("\u0044\u0041\u0057\u004f\u004f\u004c Co., Ltd.", "Sample Org Co., Ltd."),
