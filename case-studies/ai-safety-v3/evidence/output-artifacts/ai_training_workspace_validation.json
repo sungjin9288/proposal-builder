@@ -1,0 +1,119 @@
+{
+  "ai_root": "<case-study-workspace>/ai_training",
+  "broken_symlinks": [],
+  "current_action": "DO_NOT_TRAIN_MODEL_YET",
+  "generated_at": "2026-06-09T14:10:12",
+  "jsonl_statuses": [
+    {
+      "errors": [],
+      "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/canonical/002_editable_ppt_conversion_canonical_dataset.jsonl",
+      "rows": 283,
+      "valid": true
+    },
+    {
+      "errors": [],
+      "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/hold/002_editable_ppt_conversion_hold_review.jsonl",
+      "rows": 15,
+      "valid": true
+    },
+    {
+      "errors": [],
+      "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/preference/002_editable_ppt_conversion_preference_pairs.jsonl",
+      "rows": 200,
+      "valid": true
+    },
+    {
+      "errors": [],
+      "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/train/002_editable_ppt_conversion_train.jsonl",
+      "rows": 199,
+      "valid": true
+    },
+    {
+      "errors": [],
+      "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/validation/002_editable_ppt_conversion_validation.jsonl",
+      "rows": 69,
+      "valid": true
+    },
+    {
+      "errors": [],
+      "path": "<case-study-workspace>/ai_training/03_datasets/planning_documentation/canonical/002_planning_documentation_seed.jsonl",
+      "rows": 1,
+      "valid": true
+    },
+    {
+      "errors": [],
+      "path": "<case-study-workspace>/ai_training/03_datasets/planning_documentation/train/002_planning_documentation_sft_seed_messages.jsonl",
+      "rows": 1,
+      "valid": true
+    }
+  ],
+  "missing_dirs": [],
+  "sample_statuses": [
+    {
+      "feature": "planning_documentation",
+      "path": "<case-study-workspace>/ai_training/02_samples/planning_documentation/pending/001_government_task_sample",
+      "required_files_missing": [],
+      "review_decision": "",
+      "review_state": "pending",
+      "sample_id": "001_government_task_sample",
+      "source_file_count": 0,
+      "status": "NEEDS_INPUT",
+      "todo_count": 51
+    },
+    {
+      "feature": "planning_documentation",
+      "path": "<case-study-workspace>/ai_training/02_samples/planning_documentation/pending/002_next_government_task_sample",
+      "required_files_missing": [],
+      "review_decision": "",
+      "review_state": "pending",
+      "sample_id": "002_next_government_task_sample",
+      "source_file_count": 0,
+      "status": "NEEDS_INPUT",
+      "todo_count": 50
+    },
+    {
+      "feature": "editable_ppt_conversion",
+      "path": "<case-study-workspace>/ai_training/02_samples/editable_ppt_conversion/pending/001_editable_ppt_conversion_sample",
+      "required_files_missing": [],
+      "review_decision": "",
+      "review_state": "pending",
+      "sample_id": "001_editable_ppt_conversion_sample",
+      "source_file_count": 0,
+      "status": "NEEDS_INPUT",
+      "todo_count": 10
+    },
+    {
+      "feature": "editable_ppt_conversion",
+      "path": "<case-study-workspace>/ai_training/02_samples/editable_ppt_conversion/pending/003_next_editable_ppt_job",
+      "required_files_missing": [],
+      "review_decision": "",
+      "review_state": "pending",
+      "sample_id": "003_next_editable_ppt_job",
+      "source_file_count": 1,
+      "status": "NEEDS_INPUT",
+      "todo_count": 10
+    },
+    {
+      "feature": "editable_ppt_conversion",
+      "path": "<case-study-workspace>/ai_training/02_samples/editable_ppt_conversion/pending/004_next_editable_ppt_job",
+      "required_files_missing": [],
+      "review_decision": "",
+      "review_state": "pending",
+      "sample_id": "004_next_editable_ppt_job",
+      "source_file_count": 1,
+      "status": "NEEDS_INPUT",
+      "todo_count": 10
+    }
+  ],
+  "status": "NEEDS_INPUT",
+  "summary": {
+    "broken_symlink_count": 0,
+    "incomplete_samples": 0,
+    "jsonl_file_count": 7,
+    "jsonl_total_rows": 768,
+    "needs_input_samples": 5,
+    "ready_samples": 0,
+    "sample_count": 5
+  },
+  "training_command_allowed": false
+}

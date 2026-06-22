@@ -143,7 +143,7 @@ white background, ultra clean, --ar 1:1 --v 6
 > 만약 임시 placeholder가 필요하다면:
 
 ```
-Modern corporate logo placeholder for "㈜샘플기관 (DAWOOL Co., Ltd.)",
+Modern corporate logo placeholder for "㈜샘플기관 (Sample Org Co., Ltd.)",
 clean geometric design with stylized "D" letter,
 navy blue (#0D3462) and orange (#F16A1F) corporate colors,
 minimalist sans-serif typography, professional Korean tech company aesthetic,

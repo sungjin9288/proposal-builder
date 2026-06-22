@@ -1,0 +1,8 @@
+inventory=evidence/output-artifacts/v3_proposal_editability_inventory.json
+report=evidence/output-artifacts/v3_proposal_editability_report.md
+slides=31
+media=9
+external_submission_state=NOT_EXTERNAL_FINAL
+training_command_allowed=false
+RESULT PASS pptx_editability_inventory
+exit_code=0

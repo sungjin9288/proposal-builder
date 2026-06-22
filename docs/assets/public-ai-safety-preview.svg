@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="574" viewBox="0 0 1280 574">
+<rect x="0" y="0" width="1280" height="574" rx="0" fill="#f6f8fb" stroke="#f6f8fb" stroke-width="1"/>
+<text x="48" y="40" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700" fill="#0c2042">Proposal Builder Public Demo Preview</text>
+<text x="48" y="66" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="13" font-weight="400" fill="#69748a">Generated from public sample slides.json. No private project files are used.</text>
+<rect x="48" y="72" width="368" height="207" rx="8" fill="#ffffff" stroke="#d8dfe9" stroke-width="1"/>
+<rect x="48" y="72" width="368" height="36" rx="8" fill="#0d3462" stroke="#0d3462" stroke-width="1"/>
+<text x="64" y="96" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#ffffff">01</text>
+<text x="106" y="96" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#ffffff">overview</text>
+<text x="66" y="138" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="700" fill="#0c2042">공공 문서 자동화 데모</text>
+<text x="66" y="163" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#69748a">PRD 기반 슬라이드 IR 및 QA 자동화 데모</text>
+<circle cx="72" cy="194" r="3" fill="#f16a1f"/>
+<text x="84" y="198" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">프로젝트 ID: public-ai-safety-demo</text>
+<circle cx="72" cy="216" r="3" fill="#f16a1f"/>
+<text x="84" y="220" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">대상: 공개 샘플 기관</text>
+<circle cx="72" cy="238" r="3" fill="#f16a1f"/>
+<text x="84" y="242" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">민감자료 없이 실행 가능한 공개 샘플</text>
+<rect x="448" y="72" width="368" height="207" rx="8" fill="#ffffff" stroke="#d8dfe9" stroke-width="1"/>
+<rect x="448" y="72" width="368" height="36" rx="8" fill="#0d3462" stroke="#0d3462" stroke-width="1"/>
+<text x="464" y="96" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#ffffff">02</text>
+<text x="506" y="96" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#ffffff">problem</text>
+<text x="466" y="138" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="700" fill="#0c2042">문제정의</text>
+<text x="466" y="163" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#69748a">반복 문서 작업을 검토 가능한 구조로 전환</text>
+<circle cx="472" cy="194" r="3" fill="#f16a1f"/>
+<text x="484" y="198" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">반복적인 발표자료 작성과 검토 작업은 담당자 숙련도에 따라 품질 편차가...</text>
+<circle cx="472" cy="216" r="3" fill="#f16a1f"/>
+<text x="484" y="220" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">이 데모는 원본 자료와 공개 산출물을 분리하고, 구조화된 중간 표현과...</text>
+<rect x="848" y="72" width="368" height="207" rx="8" fill="#ffffff" stroke="#d8dfe9" stroke-width="1"/>
+<rect x="848" y="72" width="368" height="36" rx="8" fill="#0d3462" stroke="#0d3462" stroke-width="1"/>
+<text x="864" y="96" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#ffffff">03</text>
+<text x="906" y="96" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#ffffff">workflow</text>
+<text x="866" y="138" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="700" fill="#0c2042">자동화 흐름</text>
+<text x="866" y="163" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#69748a">PRD에서 IR, PPTX, QA 리포트까지 연결</text>
+<rect x="866" y="194" width="70" height="40" rx="6" fill="#eef3f8" stroke="#d8dfe9" stroke-width="1"/>
+<text x="880" y="219" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="700" fill="#0c2042">PRD</text>
+<text x="938" y="219" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#f16a1f">&gt;</text>
+<rect x="950" y="194" width="70" height="40" rx="6" fill="#eef3f8" stroke="#d8dfe9" stroke-width="1"/>
+<text x="964" y="219" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="700" fill="#0c2042">IR</text>
+<text x="1022" y="219" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#f16a1f">&gt;</text>
+<rect x="1034" y="194" width="70" height="40" rx="6" fill="#eef3f8" stroke="#d8dfe9" stroke-width="1"/>
+<text x="1048" y="219" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="700" fill="#0c2042">PPTX</text>
+<text x="1106" y="219" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#f16a1f">&gt;</text>
+<rect x="1118" y="194" width="70" height="40" rx="6" fill="#eef3f8" stroke="#d8dfe9" stroke-width="1"/>
+<text x="1132" y="219" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="700" fill="#0c2042">QA</text>
+<rect x="48" y="311" width="368" height="207" rx="8" fill="#ffffff" stroke="#d8dfe9" stroke-width="1"/>
+<rect x="48" y="311" width="368" height="36" rx="8" fill="#0d3462" stroke="#0d3462" stroke-width="1"/>
+<text x="64" y="335" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#ffffff">04</text>
+<text x="106" y="335" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#ffffff">verification</text>
+<text x="66" y="377" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="700" fill="#0c2042">검증 게이트</text>
+<text x="66" y="402" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#69748a">완료와 보완 필요를 분리</text>
+<circle cx="72" cy="433" r="3" fill="#f16a1f"/>
+<text x="84" y="437" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">QA 단계에서는 금지어 토큰, 슬라이드 수, 텍스트 도형 수, 파일...</text>
+<circle cx="72" cy="455" r="3" fill="#f16a1f"/>
+<text x="84" y="459" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">통과하지 못한 항목은 완료 기능이 아니라 보완 필요 항목으로 남깁니다.</text>
+<rect x="448" y="311" width="368" height="207" rx="8" fill="#ffffff" stroke="#d8dfe9" stroke-width="1"/>
+<rect x="448" y="311" width="368" height="36" rx="8" fill="#0d3462" stroke="#0d3462" stroke-width="1"/>
+<text x="464" y="335" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" font-weight="700" fill="#ffffff">05</text>
+<text x="506" y="335" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#ffffff">summary</text>
+<text x="466" y="377" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="700" fill="#0c2042">포트폴리오 활용 포인트</text>
+<text x="466" y="402" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12" font-weight="400" fill="#69748a">실제 구현된 범위만 증거로 설명</text>
+<circle cx="472" cy="433" r="3" fill="#f16a1f"/>
+<text x="484" y="437" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">반복 문서 작업을 구조화된 워크플로로 전환</text>
+<circle cx="472" cy="455" r="3" fill="#f16a1f"/>
+<text x="484" y="459" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">자동화 결과를 사람 검토 게이트로 통제</text>
+<circle cx="472" cy="477" r="3" fill="#f16a1f"/>
+<text x="484" y="481" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="11" font-weight="400" fill="#37425a">민감자료와 공개용 산출물을 분리</text>
+</svg>
