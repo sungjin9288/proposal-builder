@@ -212,6 +212,10 @@ def sanitize_staged_text() -> None:
         (str(Path.home() / "local-workspace"), "<case-study-workspace>"),
         (str(Path.home() / "Downloads"), "<local-downloads>"),
         (str(Path.home()), "<local-home>"),
+        ("㈜" + "\ub2e4\uc6b8", "㈜샘플기관"),
+        ("\ub2e4\uc6b8", "샘플기관"),
+        ("\u0044\u0041\u0057\u004f\u004f\u004c Co., Ltd.", "Sample Org Co., Ltd."),
+        ("\u0044\u0041\u0057\u004f\u004f\u004c", "SAMPLEORG"),
         ("\uc81c\uccad\uc11c", "제안서"),
     ]
     for path in iter_staged_files():

@@ -1,0 +1,170 @@
+{
+  "ai_root": "<case-study-workspace>/ai_training",
+  "current_action": "DO_NOT_TRAIN_MODEL_YET",
+  "features": [
+    {
+      "blockers": [
+        "validation_dataset_missing",
+        "canonical_rows_below_min:1/20",
+        "train_rows_below_min:1/10",
+        "validation_rows_below_min:0/3"
+      ],
+      "dataset_files": [
+        {
+          "decisions": {
+            "accept": 1
+          },
+          "errors": [],
+          "feature": "planning_documentation",
+          "job_ids": [
+            "002_integrated_final_39p"
+          ],
+          "path": "<case-study-workspace>/ai_training/03_datasets/planning_documentation/canonical/002_planning_documentation_seed.jsonl",
+          "rows": 1,
+          "split": "canonical",
+          "valid": true
+        },
+        {
+          "decisions": {
+            "unknown": 1
+          },
+          "errors": [],
+          "feature": "planning_documentation",
+          "job_ids": [
+            "planning"
+          ],
+          "path": "<case-study-workspace>/ai_training/03_datasets/planning_documentation/train/002_planning_documentation_sft_seed_messages.jsonl",
+          "rows": 1,
+          "split": "train",
+          "valid": true
+        }
+      ],
+      "description": "Government/public-sector planning documentation AI",
+      "feature": "planning_documentation",
+      "split_counts": {
+        "canonical": 1,
+        "hold": 0,
+        "train": 1,
+        "validation": 0
+      },
+      "status": "BLOCKED",
+      "thresholds": {
+        "canonical": 20,
+        "train": 10,
+        "validation": 3
+      },
+      "warnings": [
+        "job_diversity_low:1_unique_jobs",
+        "planning_ai_needs_more_real_government_task_samples"
+      ]
+    },
+    {
+      "blockers": [],
+      "dataset_files": [
+        {
+          "decisions": {
+            "accept": 114,
+            "hold_manual_review": 14,
+            "reject": 155
+          },
+          "errors": [],
+          "feature": "editable_ppt_conversion",
+          "job_ids": [
+            "002_integrated_final_39p"
+          ],
+          "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/canonical/002_editable_ppt_conversion_canonical_dataset.jsonl",
+          "rows": 283,
+          "split": "canonical",
+          "valid": true
+        },
+        {
+          "decisions": {
+            "accept": 96,
+            "reject": 103
+          },
+          "errors": [],
+          "feature": "editable_ppt_conversion",
+          "job_ids": [
+            "002_integrated_final_39p"
+          ],
+          "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/train/002_editable_ppt_conversion_train.jsonl",
+          "rows": 199,
+          "split": "train",
+          "valid": true
+        },
+        {
+          "decisions": {
+            "accept": 17,
+            "reject": 52
+          },
+          "errors": [],
+          "feature": "editable_ppt_conversion",
+          "job_ids": [
+            "002_integrated_final_39p"
+          ],
+          "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/validation/002_editable_ppt_conversion_validation.jsonl",
+          "rows": 69,
+          "split": "validation",
+          "valid": true
+        },
+        {
+          "decisions": {
+            "accept": 1,
+            "hold_manual_review": 14
+          },
+          "errors": [],
+          "feature": "editable_ppt_conversion",
+          "job_ids": [
+            "002_integrated_final_39p"
+          ],
+          "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/hold/002_editable_ppt_conversion_hold_review.jsonl",
+          "rows": 15,
+          "split": "hold",
+          "valid": true
+        },
+        {
+          "decisions": {
+            "unknown": 200
+          },
+          "errors": [],
+          "feature": "editable_ppt_conversion",
+          "job_ids": [
+            "unknown"
+          ],
+          "path": "<case-study-workspace>/ai_training/03_datasets/editable_ppt_conversion/preference/002_editable_ppt_conversion_preference_pairs.jsonl",
+          "rows": 200,
+          "split": "preference",
+          "valid": true
+        }
+      ],
+      "description": "Design-preserving editable PPT conversion evaluator AI",
+      "feature": "editable_ppt_conversion",
+      "split_counts": {
+        "canonical": 283,
+        "hold": 15,
+        "preference": 200,
+        "train": 199,
+        "validation": 69
+      },
+      "status": "READY_FOR_PACKAGE_DRY_RUN",
+      "thresholds": {
+        "canonical": 100,
+        "preference": 50,
+        "train": 100,
+        "validation": 20
+      },
+      "warnings": [
+        "job_diversity_low:1_unique_jobs",
+        "editable_evaluator_ready_for_dry_run_not_full_model_training"
+      ]
+    }
+  ],
+  "generated_at": "2026-06-09T14:10:12",
+  "status": "PARTIAL_READY_TRAINING_BLOCKED",
+  "summary": {
+    "blocked_features": 1,
+    "ready_features": 1,
+    "training_blocked_reason": "planning_documentation_insufficient_samples"
+  },
+  "training_command_allowed": false
+}

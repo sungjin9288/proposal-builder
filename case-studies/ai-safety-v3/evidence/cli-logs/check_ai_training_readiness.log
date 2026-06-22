@@ -1,0 +1,10 @@
+ai_root=<case-study-workspace>/ai_training
+status=PARTIAL_READY_TRAINING_BLOCKED
+training_command_allowed=false
+report_md=<case-study-workspace>/evidence/output-artifacts/ai_training_readiness/ai_training_readiness_report.md
+report_json=<case-study-workspace>/evidence/output-artifacts/ai_training_readiness/ai_training_readiness_report.json
+runbook=<case-study-workspace>/evidence/output-artifacts/ai_training_readiness/ai_training_readiness_runbook.md
+ready_features=1
+blocked_features=1
+RESULT BLOCKED ai_training_readiness
+exit_code=2

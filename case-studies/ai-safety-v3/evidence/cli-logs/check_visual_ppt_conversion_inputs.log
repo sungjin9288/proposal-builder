@@ -1,0 +1,8 @@
+status=VISUAL_CONVERSION_INPUTS_READY
+source_pdf=input/visual_ppt_conversion/source.pdf
+reference_pptx=input/visual_ppt_conversion/reference.pptx
+report=evidence/output-artifacts/visual_ppt_conversion_input_check.md
+external_submission_state=NOT_EXTERNAL_FINAL
+training_command_allowed=false
+RESULT PASS visual_ppt_conversion_inputs
+exit_code=0

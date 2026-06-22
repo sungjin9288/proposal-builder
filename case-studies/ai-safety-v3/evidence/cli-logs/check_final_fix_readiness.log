@@ -1,0 +1,4 @@
+decision=WAITING_FOR_REVIEW_INPUT
+external=NOT_EXTERNAL_FINAL
+report=output/final_fix_readiness_report.md
+exit_code=0
