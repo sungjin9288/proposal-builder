@@ -10,6 +10,14 @@ This document summarizes the verification gates used for the public Proposal Bui
 make final-check
 ```
 
+## Published Release Check
+
+- Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.0`
+- Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.0/proposal_builder_unified_portfolio_pack.zip`
+- Expected SHA256: `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8`
+
+Post-publish verification downloaded the GitHub release asset, checked the SHA256, extracted the package, ran `make check` inside the extracted package, and scanned the release zip for blocked private/raw file patterns.
+
 ## Gates Covered
 
 | Gate | Command | What It Verifies |

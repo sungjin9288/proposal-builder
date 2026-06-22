@@ -7,6 +7,23 @@
 - Audience: portfolio review / implementation evidence review
 - Scope: public-safe framework and sanitized evidence package
 
+## Published Artifact
+
+- Release tag: `portfolio-v0.1.0`
+- Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.0`
+- Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.0/proposal_builder_unified_portfolio_pack.zip`
+- Asset size bytes: `197459`
+- Asset SHA256: `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8`
+- Release commit: `5a3ce04421a640129cabda54fd9ea062edaf67e1`
+
+## Post-Publish Verification
+
+- GitHub release state: published, not draft
+- Release asset was downloaded from GitHub and SHA256 matched the upload manifest.
+- Downloaded release zip was extracted and `make check` passed inside the package.
+- Downloaded release zip was scanned for blocked paths and raw/private file patterns.
+- Downloaded release package was scanned for private organization and local workspace tokens.
+
 ## Included Capabilities
 
 | Capability | Evidence |
