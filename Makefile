@@ -1,4 +1,4 @@
-.PHONY: audit case-study check demo docs-check export-consistency final-check inventory learn package package-smoke preview release-check test upload-manifest validate-learning verify
+.PHONY: audit case-study check demo docs-check export-consistency final-check inventory learn package package-smoke preview private-tokens release-check test upload-manifest validate-learning verify
 
 PYTHON ?= python3
 
@@ -23,6 +23,9 @@ docs-check:
 case-study:
 	$(PYTHON) scripts/check_case_study_status.py
 
+private-tokens:
+	$(PYTHON) scripts/check_private_tokens.py
+
 release-check: check
 	$(PYTHON) scripts/check_release_readiness.py
 
@@ -43,7 +46,7 @@ export-consistency: upload-manifest
 
 final-check: export-consistency
 
-check: validate-learning preview test docs-check case-study package verify
+check: validate-learning preview test docs-check case-study private-tokens package verify
 
 package: preview
 	$(PYTHON) scripts/build_portfolio_package.py
