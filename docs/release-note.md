@@ -12,16 +12,20 @@
 - Release tag: `portfolio-v0.1.1`
 - Release URL: `https://github.com/sungjin9288/proposal-builder/releases/tag/portfolio-v0.1.1`
 - Asset URL: `https://github.com/sungjin9288/proposal-builder/releases/download/portfolio-v0.1.1/proposal_builder_unified_portfolio_pack.zip`
-- Asset size bytes: `198588`
-- Asset SHA256: `f917b489ffc38d45653ddd4389f25e322271e81a8f1d9f87c5d74ef23b00443f`
-- Release commit: `8a5d2a40b7d9bb9d295801071f7196f914d541a0`
+- Asset size bytes: `198571`
+- Asset SHA256: `a12292435da94bf2bde1a00b2072e6d9e3b5d64ec432b3c61f85b5360cab809e`
+- Release commit: `ed9d79b2cdfa5938b8d464740f4a926e459198e3`
 
 ## Release History
 
 | Tag | Purpose | SHA256 |
 |---|---|---|
-| `portfolio-v0.1.1` | Adds post-release evidence docs and package URL sanitization | `f917b489ffc38d45653ddd4389f25e322271e81a8f1d9f87c5d74ef23b00443f` |
-| `portfolio-v0.1.0` | Initial public-safe portfolio package | `4a46f765e7fe07a3cc26dfc816b974fa0e1414153496a64449919648dafc05b8` |
+| `portfolio-v0.1.1` | Adds post-release evidence docs and package URL sanitization | `a12292435da94bf2bde1a00b2072e6d9e3b5d64ec432b3c61f85b5360cab809e` |
+| `portfolio-v0.1.0` | Initial public-safe portfolio package | `fa204745711c60dbe0534c59eb011c17683082b89d40b7b633de5f4c0e827fb1` |
+
+## Reissue — 2026-10-20
+
+Internal client identifiers were removed from every commit, and the history was rewritten, so all commit SHAs changed. Both release assets were rebuilt from the rewritten tags and replaced in place. The checksums and release commit above refer to the rebuilt assets. Each rebuilt zip has the same 88 entries, passes `make check` after extraction, and contains none of the removed identifiers.
 
 ## Post-Publish Verification
 
