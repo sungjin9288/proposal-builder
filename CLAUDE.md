@@ -177,3 +177,18 @@ proposal-builder/
 1. README를 고치기 전에 위 규칙을 먼저 적용한다.
 2. 수정 후 **측정 근거 없는 새 수치가 들어가지 않았는지** 스스로 검사한다 (`99.8`, `production-ready` 등 grep).
 3. 큰 변경은 "어디를 왜 바꿨는지"를 커밋 메시지/PR에 남긴다.
+
+<!-- BEGIN dev-env:shared-tools -->
+## 공용 skill·agent (dev-env)
+
+`~/dev/dev-env`에 설치된 공용 도구 중 이 프로젝트에 맞는 것이다. 이 문서의 프로젝트 규칙이 우선한다.
+agent 이름은 Claude가 하이픈(`evidence-qa`), Codex가 밑줄(`evidence_qa`, multi-agent `agent_type`)로 부른다.
+
+- 공고·RFP·과업지시서 검토와 제안: `procurement-proposals` skill. 일정·원가·진척: `pmo-cost-traceability` skill.
+- 제출·납품 문서 구성·서식·검수: `deliverable-quality` skill.
+- 자료 조사·출처 등급·주장 추적: `research-synthesist` agent. 외부 검색어에 기밀·개인정보를 넣지 않는다.
+- 분석·표·KPI를 공유하기 전 검수: `analysis-qa` skill. 표본·통계 주장 검토: `statistician` agent.
+- 문서용 도식: `diagram-design` skill. 차트: `dataviz` skill.
+- "된다"는 결과를 완료로 판정하기 전 재현 가능한 증거 검증: `evidence-qa` agent.
+- 여러 세션·도구가 고친 코드의 파일 간 엇갈림·죽은 코드·낡은 문서 점검: `codebase-archaeologist` agent(읽기 전용).
+<!-- END dev-env:shared-tools -->
